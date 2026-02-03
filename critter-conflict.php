@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <?php
+        include("head.php")
+    ?>
+<body>
+    <div class = "container">
+        
+        <?php include("header.php") ?>
+        
+        <?php include("nav.php") ?>
+
+        <main>
+
+        <div class = text-block>
+
+            <h1>Critter Conflict</h1>
+            <h3>No Nuts - No Glory</h3>
+            <p class = "paragraph">
+            Critter Conflict is a strategy game made over nine weeks by a twelve-man team in Tengine for the PS4.
+            <br>
+            My roles on this project included game design, prototyping, level design, UI design, scripting in C++, gameplay testing and project management.
+            <br><br>
+            This was our second game project at PSQ. <br>
+            Our team had two game designers, five graphical artists, three programmers and two sound technicians. We chose to make a strategy game for console and despite the scope of the genre and the difficulties involved with adapting such a genre to console, the game was completed successfully. <br>
+<br>
+            For me, it was a learning opportunity in ways to solve the design challenges that presents itself when working towards a console, such as screenspace and controls. <br>
+            On the management side, I got a lot of practice in how to manage scope and prioritizing assets for an efficient pipeline. I additionally learned more about working with C++ in practice, as we designers used it for direct implementation of gameplay.
+            <br><br>
+            <a href="https://portal.playgroundsquad.com/spelprojekt/critter-conflict/">The game on PlaygroundSquad's Website</a>
+        </p>
+        </div>
+<br>
+        <div class = text-block style = "background-color: #320a47">
+            <div>
+                <h1>About This Game</h1>
+                <p class = "paragraph">
+
+                Critter Conflict is a two-player strategy game made for the PlayStation 4. 
+                <br><br>
+                In this game, each player takes control of a colony of mice on opposite ends of a forest glade, struggling against each other to be the colony to end up with enough food to survive the oncoming winter. <br>
+
+                To win, the players must send different types of mice against each other, help them navigate through the forest, fight other mice and use special abilities, grab the acorns from the enemy base and help them safely back to their home colony. <br>
+<br>
+                The game combines the gameplay of balancing offense vs defense from classic capture and aspects of the lane-based level design from games such as League of Legends and DotA to arrive at a quick-paced game dependent on swift tactical decisions, designed for short rounds and to be simple in execution compared to large-scale strategy games. <br>
+                </p>
+            </div>
+            <div class = text-block style = "padding: 2%">
+                <a target="_blank" href="assets/critter-conflict-1.png"><img class="gallery-img" src="assets/critter-conflict-1.png" style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/critter-conflict-2.png"><img class="gallery-img" src="assets/critter-conflict-2.png" style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/critter-conflict-3.png"><img class="gallery-img" src="assets/critter-conflict-3.png" style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/critter-conflict-4.png"><img class="gallery-img" src="assets/critter-conflict-4.png" style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/critter-conflict-5.png"><img class="gallery-img" src="assets/critter-conflict-5.png" style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/critter-conflict-6.png"><img class="gallery-img" src="assets/critter-conflict-6.png" style = "max-width: 280px"></a>
+
+            </div>
+        </div>
+<br>
+        <div class = text-block>
+            <h1>Post Mortem</h1>
+                <h2 style ="text-align: left;">1. INTRODUCTION</h2>
+                <p class = "paragraph">
+During nine weeks, Decadence, with five artists, three programmers and two designers, worked on developing a strategy game for the PS4.
+<br>
+This game became Critter Conflict.
+<br>
+From the outset, we knew that we had a good team with varied skillsets, so our intention was to set the bar of our scope a little bit higher than what is perhaps appropriate for a nine-week project. This really showed in the genre of our choice – strategy – for the platform we developed for, and our intention to make it a network-based PvP game – an idea we dropped around week three.
+<br>
+While the final product is no doubt different from what we initially envisioned, we did manage to create a product molded from iterating on these early ideas.
+</p>
+<h2 style ="text-align: left;">2. WHAT WENT RIGHT</h2>
+<h3 style ="text-align: left;">2.1 FAST ITERATIONS</h3>
+<p class = "paragraph"> Once we could try out how certain implementations worked in the game, we were able to quickly determine whether they would work, and what exactly the problem was. Thanks to the team’s general professionalism and good attitude the cuts and iterations that had to be done for the game caused no side effect on the group’s mood or efficiency.
+<h3 style ="text-align: left;"> 2.2 STRONG CONCEPT PHASE</h3>
+<p class = "paragraph">
+During our previous project a lot of us had worked on games that had spent little time to build up a setting or a coherent theme during the concept phase, and those projects had suffered from it. To remedy this, we wanted to give this game a solid concept phase.
+<br>
+Once we knew the genre we decided on one theme and setting as a group, and once we had chosen a forest setting with tiny critters fighting, we had something solid to use going into concepting.
+<br>
+The time we set aside for the concept phase allowed the artists to communicate and find a common style, the designers to complete a thorough GDD and the programmers to start setting up a solid framework that we could build the game upon. While working, we would always keep the basic concept in mind, and allow it to aid in the whole process.
+<h3 style ="text-align: left;">2.3 GOOD PLANNING & STRUCTURE</h3>
+<p class = "paragraph">Our planning for each sprint was comprehensive as a result of spending a lot of time on it (perhaps a bit too much time), but more importantly, by involving everyone in the process directly. At the end of each week we, as a team, sat down and planned collectively.
+<br>
+This means the artists and designers were in on the programmer’s planning, programmers knew what type of assets artists needed to create etc. It sparked cross-discipline dialogue that helped reveal hidden dependencies.
+<br>
+The team’s collective awareness of the scope and state of the game also helped us prioritize during planning and avoid adding too many non-critical features (mostly).
+<h3 style ="text-align: left;">2.4 GOOD WORK DISTRIBUTION</h3>
+<p class = "paragraph">
+The team had a good balance of skills which made it easier to give people specific areas of responsibility. It helped us because we knew who was good at what and if problems in an area arose, everyone knew who to go to.
+<br>
+It improved our planning process because we could “default” to giving certain people specific types of tasks and be sure that they were in good hands.
+<h3 style ="text-align: left;">2.5 GOOD COMMUNICATION</h3>
+<p class = "paragraph">
+People on the team communicated frequently, not just in discipline-specific meetings but in the regular work environment as well.
+Everyone contributed with ideas for improvement, potential or extant issues with production etc. The atmosphere was open and no-one’s opinion was ignored or not considered regardless of discipline or person.
+
+Lots of discussions about the game occurred as a result, which in large part probably offset a lot of the issues we had stemming from other areas of production.
+
+</p> 
+<h2 style ="text-align: left;">3. WHAT WENT WRONG</h2>
+<h3 style ="text-align: left;">3.1 NOT ENOUGH PLAYTESTING</h3>
+<p class = "paragraph">
+This is perhaps the single biggest contributing factor to a lot of our production woes. Not playtesting enough obviously means that the rate and likelihood of improvement was significantly decreased but it also caused confusion over what the game was and was going to be like.
+<br>
+Certain features that we had discussed or designed were not tested or analyzed properly, nor were the state of certain individual features communicated properly to or seen by the team. It created a disconnect between different people on the team over what was in the game, what state it was in and if it was going to stay.
+<br>
+Lack of dedicated playtesting sessions also created problems for implementing sound as it needs context but also because people on the team did not get the chance to provide feedback on sound effects or music.  
+<br><br>
+<b>How to fix it:</b> <br>
+Once a working prototype is up and running, have scheduled mandatory playtests at least once a week.
+
+<h3 style ="text-align: left;">3.2 LATE FEATURE CUTS</h3>
+<p class = "paragraph">
+This is partly a symptom of the lack of playtesting (as is most of the bad stuff on here). Because of the disconnect between people regarding the state of the game, some features ended up in production limbo or were just plain forgotten but still had people assigned to work on them.
+<br>
+Lack of definitive decisions regarding the state of these features meant that people kept working on them even though the designers had scrapped or shelved the feature for whatever reason.
+<br><br>
+<b>How to fix it: </b><br>
+Aside from the above solution to playtesting, there needs to be a quick way of looking at the state of a feature somewhere. <br>
+GDD’s are not enough, as they are far too verbose to offer a quick overview. What you need is a way to set and view the state of features that doesn’t require people to read a giant document.
+
+<h3 style ="text-align: left;">3.3 LACK OF DESIGNER TOOLS</h3>
+<p class = "paragraph">
+At the start of the project, we knew we wanted to establish a strong base to build the game on before we did anything gameplay-related. The intent was to spend the first weeks of development creating the tools that would allow us to rapidly iterate later in the project. For the most part, this is what happened and it helped us a lot.
+<br>
+One of the things that we decided not to do was to set up a scripting, or at least scripting-like environment so that the designers could mess around with the game without interfering with the programmer’s code-base. The reason for this was simply a time issue. We did not think, and still don’t think, that setting up such an environment was feasible given the limited time.
+<br>
+Nevertheless, it gave the programmers some headache. If the designers wanted to change anything in the game, what they did would inevitably end up conflicting with their work, not to mention messing up the code’s structure.
+<br><br>
+<b>How to fix it:</b> <br>
+While setting up a scripting environment in addition to the editor was not an option this project, the need for some kind of “isolated” work environment for designers to create and tweak gameplay is nonetheless there.
+
+<h3 style ="text-align: left;">3.4 TENGINE CONVERTER</h3>
+<p class = "paragraph">
+Many hours were spent troubleshooting problems in the Tengine converter. The problem isn’t workflow related. It’s feedback related.
+<br>
+The converter does a poor job telling the user what went “wrong” or why something happened and what the user can do to fix the problem. It does not tell the user the limitations of the converter, or how it handles animations and hierarchy.
+<br>
+Problem solving is a very valuable skill to have, but the converter eats up way more time than it should and feels more like a hinderance than a helping tool.
+<br><br>
+<b>How to fix it: </b><br>
+Talk to the person who made the Tengine Converter ( Tomas Jakobsson )
+
+<h3 style ="text-align: left;">3.5 POOR FEATURE FILTER</h3>
+<p class = "paragraph">
+In this project, the idea for the game was meant to be a common effort, created by the team rather than a single design. This resulted in that ideas from individual people had more difficulty in receiving response, whether they were to be added to the game or not.
+<br>
+As in any development cycle, people from the entire team came with ideas as the process went on, but most ideas never received a clear “yes” or “no” and instead ended up in some kind of limbo, where the person who pitched the idea didn’t know whether it was added or not, and might have been surprised to not find it in the game or having to rework something suddenly.
+<br>
+On the designer side, this caused some other trouble where we tried to go over every feature pitched to see how we could possibly fit it into the game instead of in some cases discarding them directly.
+<br><br>
+<b>How to fix it: </b><br> 
+Once an idea comes up, all people that would be involved in the realisation of this should be consulted. Be clear with what goes and what doesn’t.
+            </p>
+
+        </div>
+
+    </main>
+
+        <?php include("footer.php") ?>
+    </div>
+
+</body>
+</html>

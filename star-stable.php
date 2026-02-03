@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <?php
+        include("head.php")
+    ?>
+<body>
+    <div class = "container">
+        
+        <?php include("header.php") ?>
+        
+        <?php include("nav.php") ?>
+
+        <main>
+
+        <div class = text-block style = "background-color: #320a47">
+
+            <h1>Star Stable Online - Star Stable Entertainment</h1>
+            <p class = "paragraph">
+            Star Stable is an MMO with weekly updates. During my time at Star Stable I was part of developing and shipping more than 60 weekly updates.
+            <br> 
+            At Star Stable, I have worked in many roles at many aspects of the game.  
+            I started as a content designer writing and implementing quests, events, and competitions.
+            <br>
+            As I accumulated more experience I focused on the development of modular systems and gameplay features. 
+            <br>
+            Besides my work as a Game Designer, I have also worked as a team leader on several projects and have taken an active role in seeking out and interacting with the player community.
+            </p>
+        </div>
+<br>
+        <div class = text-block>
+            <div>
+                <h1>Soul Riding - New Feature</h1>
+                <p class = "paragraph">
+                Soul Riding was a new feature aimed to increase engagement on a daily basis. Since a lot of Star Stable's weekly engagement was a resuly of the weekly updates, we were looking for something that the players could look forward to do if they logged on and played every day. 
+                <br><br>
+                Soul Riding aimed to be a modular system were content and rewards could easily be added as the players were progressing. As such, I designed several simple gameplay activities that introduced twists on the basic verbs the players were already doing in the game, so we could utilize the existing technology and player knowledge. The activities were designed to be able to fit in anywhere in the game world, thereby introducing variety by randomly choosing the location of the task, as well as the narrative framing.
+                <br><br>
+                Working on this task, I led the vision for the feature and worked with artists, animators, sound designers, and programmers to make sure we delivered the intended experience.
+                <br><br>
+                The feature was a success in increasing engagement when examining the KPIs of daily/weekly/monthly log-ins as well as an increase towards the desired average play time per session. 
+                <br><br>
+                <a href="https://www.starstable.com/en/article/8306">News article on Star Stable's Website</a>
+                </p>
+            </div>
+            <div class = text-block style = "background-color: #320a47; padding: 2%">
+                <a target="_blank" href="assets/soul-riding-2.jpg"><img class="gallery-img" src="assets/soul-riding-2.jpg" title="Players get a common pool of random gameplay activities each day." alt="Players get a common pool of random gameplay activities each day." style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/soul-riding-4.png"><img class="gallery-img" src="assets/soul-riding-4.png" title="Sample gameplay activity: A mission to close a rift." alt="Sample gameplay activity: A mission to close a rift." style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/soul-riding-3.jpg"><img class="gallery-img" src="assets/soul-riding-3.jpg" title="Players gain major rewards over time and minor rewards per activity." alt="Players gain major rewards over time and minor rewards per activity." style = "max-width: 280px"></a>
+                <div style = "text-align: center;">
+                    <iframe width="320" height="180" src="https://www.youtube.com/embed/OZaHnaLguME" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="320" height="180" src="https://www.youtube.com/embed/DoPlhYumIPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+<br>
+        <div class = text-block style = "background-color: #320a47">
+            <h1>Halloween - Limited-time Event</h1>
+            <p class = "paragraph">
+            Halloween is a limited-time event and very popular with our player base. I was involved in creating Halloween content for several years, as I am very passionate about the spooky horror elements, and how to adapt them to a younger audience. I have worked on the layout of the Halloween area, specific races, quests, and collections available for the event, as well as developing the narrative around the central character, the headless horseman Galloper Thompson.
+            <br><br>
+            In the process of making the specific 2022 iteration of Halloween, I worked on integrating a system that I had already built for this purpose - a Trail Ride, where you could ride between two points on the map and would see random encounters as you progress. This had been popular with players when we introduced it elsewhere, so moving it to Halloween with a spooky narrative wrapper allowed us to quickly create content in modular chunks that allowed us to deliver within the short development time.
+            <br><br>
+            In this, I was partly responsible for creating gameplay, but my main responsibility was to make sure everything we delivered worked holistically. 
+            I worked on adapting the system for trail rides to work with the new area and experiences the other designers would create, as well as setting the narrative and writing the quest that would unfold over the event.
+            I also mapped out the reward structure for the event to player archetypes, so we could estimate how much we would need to create for both the casual and hardcore part of the player base to feel rewarded.
+            <br><br>
+                <a href="https://starstableentertainment.com/blog/the-making-of-halloween/">Making of Halloween article (written by me) on Star Stable's Dev Blog</a>
+                <br>
+                <a href="https://www.starstable.com/en/article/9315">News article on Star Stable's Website</a>
+                <br>
+                <a href="https://www.starstable.com/en/article/9358">Part 2</a>
+            </p>
+            <div class = text-block style = "padding: 2%">
+                <a target="_blank" href="assets/SSO-Halloween-1.png"><img class="gallery-img" src="assets/SSO-Halloween-1.png" style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/SSO-Halloween-2.png"><img class="gallery-img" src="assets/SSO-Halloween-2.png" style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/SSO-Halloween-3.png"><img class="gallery-img" src="assets/SSO-Halloween-3.png" style = "max-width: 280px"></a>
+                <div style = "text-align: center;">
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/kv6ZHDcQRyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/Ql8Hpo_OUUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+<br>
+        <div class = text-block>
+            <h1>Winter in Jorvik - System for Events</h1>
+            <p class = "paragraph">
+            For the December-spanning winter event, I created a modular calendar of events that players could encounter. Different days and times would spawn different events, and players could complete the sequences and/or minigames in those events to earn items to exchange for rewards. 
+            The event system was built in such a way to allow other designers to quickly create a big pool of content on the cheap, and easily let us place it in different locations in the world, to allow for player discovery and give players something to do and talk about in the global chats every time they logged on during the event.
+            <br>
+            We also managed to fake a winter mood over the whole world with clever useage of post-processing and viewport effects.
+            <br><br>
+                <a href="https://www.starstable.com/en/article/9550">News article on Star Stable's Website</a>
+                <br>
+                <a href="https://www.starstable.com/en/article/9593">Part 2</a>
+                <br>
+                <a href="https://www.starstable.com/en/article/9622">Part 3</a>
+                <br>
+                <a href="https://www.starstable.com/en/article/9678">Part 4</a>
+            </p>
+            <div class = text-block style = "padding: 2%; background-color: #320a47">
+                <a target="_blank" href="assets/SSO-Winter-1.png"><img class="gallery-img" src="assets/SSO-Winter-1.png" style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/SSO-Winter-2.png"><img class="gallery-img" src="assets/SSO-Winter-2.png" style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/SSO-Winter-3.png"><img class="gallery-img" src="assets/SSO-Winter-3.png" style = "max-width: 280px"></a>
+                <div style = "text-align: center;">
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/toWSc1YzsH0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/jyprXvgkG6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+<br>
+        <div class = text-block style = "background-color: #320a47">
+            <h1>Farah's Workshop - Crafting System</h1>
+            <p class = "paragraph">
+            In an ongoing effort to create gameplay features that would allow players to have evergreen gameplay, I pitched and designed a gathering and crafting system. The first iteration of this system would become Farah's Workshop.
+            <br>
+            In this feature, I created a system of nodes placed over the world that would spawn materials to be gathered by players. Those materials could then be turned into items at crafting stations. Players could choose whether to craft equipment for themselves, or to create items to complete daily delivery quests which would provide them with progress towards unlocking more item recipes.
+            <br>
+            While the daily quests were limited to a few per day, the amount of materials to gather was not, and players could exchange raw material for a little bit of progression. This effectively meant that players who wished to grind could do so, but put a soft cap between the casual and hardcore crowd to limit players from going through all the content quickly. 
+            <br><br>
+            An interesting issue to solve was that we couldn't control the respawn time for the nodes server-side. To solve this I had to get a bit creative with solutions, and instead based node instancing depending on the server time when a player would log in.
+            <br>
+            I wanted players to be able to communicate with friends when they found a material node, so it was important that the same nodes were active for players to see. At the same time, we needed to avoid situations that could lead to relog-abuse. The solution was for a node to check the closest time to the top of the hour to see if it should spawn when a player logged in. At the end of every hour, this check would also be done for all online players. Recent nodes were marked as collected to avoid players relogging in place. 
+            <br> 
+            This effectively meant that players could work together to get the nodes independent on when they logged in.
+            <br><br>
+                <a href="https://www.starstable.com/en/article/8804">News article on Star Stable's Website</a>
+            </p>
+            <div class = text-block style = "padding: 2%">
+                <a target="_blank" href="assets/SSO-Crafting-1.png"><img class="gallery-img" src="assets/SSO-Crafting-1.png" style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/SSO-Crafting-2.png"><img class="gallery-img" src="assets/SSO-Crafting-2.png" style = "max-width: 280px"></a>
+                <div style = "text-align: center;">
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/DKYG1Fzfa0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/N9gZp-4-r3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+<br>
+        <div class = text-block>
+            <h1 id="SSO-Quests">Quests</h1>
+            <p class = "paragraph">
+            During my time at SSE I worked on several quests in the game. In making the quests I have worked on coming up with new ways to use gameplay, creating minigames using both the world and the UI interface, working with cinematics, and expanding and documenting the tools used to create quests so they can be used by other designers.
+            <br><br>
+            I have been involved in the writing of several quests, either as a writer or an editor.
+            </p>
+            <p class = "paragraph">
+            Sample quests I have worked on:
+            </p>
+
+            <h3 style = "text-align:left">A Horse For Maya</h3>
+            <p class = "paragraph">
+            This was the final quest I worked on before leaving the company. It is very dear to me as it allowed me to expand greatly on Maya Dew. Maya is a character with fun personality, a close (and queer) connection to one of the main characters, as well as an interesting backstory that tied together with another of the big subplots of the game. 
+            However, most of that was background material that had only been written internally or hinted at in other sources. For someone who was supposed to be a major character, I thought Maya deserved better.
+            <br>
+            I also wanted to make a bit of a showing what the tools actually could allow you to create even with a short dev time, and no new resources. This quest was made in two weeks development time just with me and one writer.
+            <br>
+            This quest made use of multi-choice dialog, minigames, a race, and a short reputation grind for some bonus content at the end, including an evergreen activity where you could take an NPC of your choosing to a picnic with Maya and her girlfriend.
+            <p class = "paragraph">
+                <a href="https://www.starstable.com/en/article/10511">News article on Star Stable's Website</a>
+                <br>
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/Oufu1-2leg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+            </p>
+            <h3 style = "text-align:left">Get To Know Gary</h3>
+            <p class = "paragraph">
+                This was a relatively simple quest, which was just supposed to cover one content update and (re) introduce a character. It was part of the release of a new area, and tied into the overarching narrative of that area.
+                <br>
+                 
+                <p class = "paragraph">
+                <a href="https://www.starstable.com/en/article/10041">News article on Star Stable's Website</a>
+                <br>
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/l6XrbuGp7AM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p>
+            </p>
+            <h3 style = "text-align:left">In Loving Memory</h3>
+            <p class = "paragraph">
+                Possibly my greatest achievement accounting for impact, and I was not even the designer on this quest! I was co-designer and writer!
+                <br>
+                At a certain point in the main story, we killed off one of our main characters (the mentor character, of course). Realizing that we couldn't have the characters just go on as normal, but not wanting a somber tone in the rest of the main story, we dedicated a quest to Elizabeth's memorial.
+                In creating this event I was pushing for making this an experience with little gameplay or gimmicks attached, as the moment needed to stand for what it was, and treat a memorial service with the gravitas and respect a game aimed towards a younger audience should have.
+                <br>
+                I worked with one other designer, one artist, and a sound designer on this, but aside from the general planning, I mainly focused on the writing for this quest.
+                In writing this, I tried to populate the memorial with a number of different characters who would have known Elizabeth in different ways. A person is quite complex, and showing how our characters mourned her and spoke of their memories with her allowed for approaching the dialog from several angles of writing.
+                <br>
+                I thought we handled a grave topic quite well for a tween/teen oriented game.
+                <br><br>
+                Then a few days after the release, I found this:
+                <br>
+                <a href="https://sso-emotree.tumblr.com/post/185718150676/thank-you-sso">https://sso-emotree.tumblr.com/post/185718150676/thank-you-sso</a>
+                <br> <br>
+                I can point towards many KPIs my designs have achieved. Numbers in revenue, player time, or conversion to paying customers.
+                However, I think nothing else I do can quite stand up to "helping a player come to terms with the death of a friend."
+                <p class = "paragraph">
+                <a href="https://www.starstable.com/en/article/10511">News article on Star Stable's Website (buried beneath Midsummer)</a>
+                <br>
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/OKx0YSQdnN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p>
+            </p>              
+        </div>
+<br>
+    <div class = text-block style = "background-color: #320a47">
+        <h1>Trail Rides - Modular Event System</h1>
+        <p class = "paragraph">
+        I designed Trail Rides as a system for modular events to allow players to tell their own stories.
+        <br>
+        The Trail Ride system was intended to bring in more equestrian activities as evergreen gameplay. The Trail Ride system was based more around the joys of exploring the world rather than testing the players racing skills.
+        <br>
+        A player would start a trail ride at a specific spot and journey to another spot in the world alone or together with friends. On the way, they would have encounters with several random modular events that could be placed in different spots in order to create a unique experience each trail ride that players could share with other players.
+        <br>
+        The system was set up as to be modular internally and externally. This meant that more content could easily be added to a single trail ride, but also that new trail rides could be built using the same system as a skeleton. This was used in Halloween 2020 to create the Haunted Trail Ride.
+        <br><br>
+                <a href="https://www.starstable.com/en/article/6869">News article on Star Stable's Website</a>
+        </p>
+
+        <div class = text-block style = "padding: 2%">
+                <a target="_blank" href="assets/SSO-TrailRide-1.png"><img class="gallery-img" src="assets/SSO-TrailRide-1.png" style = "max-width: 280px"></a>
+                <a target="_blank" href="assets/SSO-TrailRide-2.png"><img class="gallery-img" src="assets/SSO-TrailRide-2.png" style = "max-width: 280px"></a>
+                <div style = "text-align: center;">
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/x-bDW3NW4K4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/kR1vuUW8a1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+        </div>
+    </div>
+
+
+    </main>
+
+        <?php include("footer.php") ?>
+    </div>
+
+</body>
+</html>
