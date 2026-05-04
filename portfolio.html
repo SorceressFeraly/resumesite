@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php
-        include("head.php")
-    ?>
+<head>
+  <div id="head"></div>
+  <script src="/components.js" defer></script>
+</head>
 <body>
     <div class = "container">
         
-        <?php include("header.php") ?>
-        
-        <?php include("nav.php") ?>
+        <div id="header"></div>
+        <div id="nav"></div>
 
         <main>
-
-        <div id="game-projects" class="banner-img" style="background-image:url(assets/pexels-lilartsy-1111597.jpg); background-position: center 60%"><h1>Professional Game Projects</h1></div>
+        <div class="content-block">
+      <!--  <div id="game-projects" class="banner-img" style="background-image:url(assets/pexels-lilartsy-1111597.jpg); background-position: center 60%"><h1>Professional Game Projects</h1></div>
             <div class = "row">
 
                 <div class = "column-dark">
@@ -35,10 +35,10 @@
                     <br>
                     Besides my work as a Game Designer, I have also worked as a team leader on several projects and have taken an active role in seeking out and interacting with the player community.
                     <br><br>
-                    <a href="star-stable.php">Read More</a>
+                    <a href="star-stable.html">Read More</a>
                     </p>
                 </div>
-            </div>
+            </div>-->
 
         <div id="gamejam-projects" class="banner-img" style="background-image:url(assets/pexels-toni-cuenca-585752.jpg); background-position: center 40%"><h1>Gamejam/Personal Projects</h1></div>
 
@@ -53,8 +53,9 @@
                     In this game, each player takes control of a colony of mice on opposite ends of a forest glade, struggling against each other to be the colony to end up with enough food to survive the oncoming winter.
                     The game combines the gameplay of balancing offense vs defense from classic capture the flag and aspects of the lane-based level design from games such as League of Legends and DotA.
                     <br><br>
-                    <a href="critter-conflict.php">Read More</a>
                     </p>
+                    <a class = "button-link-banner" href="critter-conflict.html">Read More</a>
+                    
                 </div>
 
             <div class = "column-dark">
@@ -77,8 +78,8 @@
                     <br>
                     Chroma Hoverdash has four different hovercrafts that operates differently, so all players can find the one best adapted to their playstyle.
                     <br><br>
-                    <a href="chroma-hoverdash.php">Read More</a>
                     </p>
+                    <a class = "button-link-banner" href="chroma-hoverdash.html">Read More</a>
                 </div>
             </div>
 
@@ -176,8 +177,8 @@
                     <p>
                     At Star Stable, I was part of writing character dialogue, in-game descriptive text, branching dialogue options, and editing quest text. 
                     <br><br>
-                    <a href="star-stable.php#SSO-Quests">Read more</a>
                     </p>
+                    <a class = "button-link-banner" href="star-stable.html#SSO-Quests">Read More</a>
                 </div>
 
                 <div class = "column-dark">
@@ -185,7 +186,6 @@
                     <p>
                     Through NaNoWriMo, I have written a novel during the month of November every year since 2014.
                     <br><br>
-                    <a href="https://nanowrimo.org/">Read more</a>
                     </p>
                 </div>
 
@@ -255,10 +255,10 @@
             </div>
         </div>
 
-
+        </div>
         </main>
 
-        <?php include("footer.php") ?>
+        <div id="footer"></div>
     </div>
 
 </body>

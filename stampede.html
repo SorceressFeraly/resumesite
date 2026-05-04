@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <div id="head"></div>
+  <script src="/components.js" defer></script>
+</head>
+
+<body>
+    <div class = "container">
+        
+        <div id="header"></div>
+        <div id="nav"></div>
+
+        <main>
+        <div class="content-block">
+            <div class = "row">
+                <div class="column-dark" style="width: auto; max-width: 1280px;">
+                    <a class="button-link-square" style="background-image:url(assets/stampede-racing-royale-key-art.jpg);  border-radius: 0px;"></a>
+                    <hr>                
+                    <h1>
+                        Stampede: Racing Royale 
+                    </h1>
+                    <p>I joined Sumo Leamington when Stampede was still in its infancy. Our team had been given the task to deliver a new racing game IP within a year's development time. 
+                    <br>I was responsible for shaping the early controls and core modes of moment-to-moment gameplay, as well as content cadence and meta-progression for long-term retention.
+                    <br>Stampede went into free-to-play early access June 11 2023 and remained active for two years before Sumo made the decision to sunset the servers in May 2025.   
+                    </p>
+                    <p>The core ideas behind Stampede were built on a Mario Kart meets Ready Player One's racing scene - a massive race where players must survive competitors as well as the environment. 
+                        <br>To this end the pillars include player elimination, a level that is constantly changing making no two races the same, and an array of crazy power-ups that players can use to catapult themselves forward, or aim to eliminate the competition.  
+                    </p>
+
+                    <p>The main challenges the development team faced during this project was the limited time to deliver a large scale product. Rapid prototyping was a must, and I worked with a quick process to ideate, implement, test, and iterate. </p>
+
+                    <p>Due to the strict regulations and NDAs around Tencent's acquisition of the Sumo Group during my employment period there - as well as my status there as a contractor - what I can share about the game's development process is very limited. The information regarding features shared below is all public knowledge can be found on the <a href="https://store.steampowered.com/app/1851350/Stampede_Racing_Royale/">Stampede Steam page.</a></p>
+
+                    <p style="justify-self: center;"><iframe width="auto" height="auto" src="https://youtu.be/X5D90achxnM?si=PFZOF8W39vLSvPEy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+                        <div class = "column-dark">
+                        <h3>Drifting</h3>
+                        <p>The core of any kart-racing game is to make sure the controls in general and drifting in particular feels great in the hands of the player. I worked directly in collaboration with programmers in Unity to implement, prototype and test the base control scheme for the game. 
+                            <br> <br> During development drifting changed from being a part of the control experience to be the core that the rest of the controls were built around. 
+                            <br> We had attempted to couple drifting with a "turbo" meter that would charge while successfully drifting. The intention was that you'd charge the turbo in corners by drifting and then tactically deploying in in the straights to overtake opponents, or by utilizing jumps and shortcuts. 
+                            <br> While this felt good in gameplay, a problem emerged when players could drift + boost simultaneously to have an ever-charging boost meter. This made drifting too much of a first-order-optimal strategy and there was no reason not to utilize the drift + boost at every opportunity. 
+                            <br><br>While it was popular in internal playtesting, we finally felt that the boost meter just didn't work, and instead replaced it with the simpler drift-into-a-mini-boost that is usually seen in similar competitive games. This created a better balance around the drift and made the gameplay feel speedy and tight when coming out of the corners. 
+                        </p>
+                        </div>
+
+                        <div class = "column-dark">
+                        <h3>Elimination Race <br></h3><p style="justify-self: center;">Core Game Mode</p>
+                        <p>Designed and implemented the full PvP/PvE hybrid race mode. 
+                            <br><br>An ever-changing track with 60-player chaos is a grand idea, but difficult to execute on if it meant hand-crafting each track. This resulted in each level being a combination between hand-crafted set pieces from the art team and level designer coupled with modular hazards that could be dropped into any section of a level and a simple ai-director that would deploy those hazards in run-time depending on the state of the race.
+                            <br><br>To produce the Battle-Royale feel, it was decided early on that each lap of a race would have a set number of qualifiers before the players that didn't make it would be eliminated. While there was concern in internal playtesting that permanent elimination would feel bad for players, we in the Design team was insisting that it would be necessary as a core pillar to produce the Battle-Royale feeling. 
+                            <br><br>One continuous challenge with the base concept was to ensure the balance between a level feeling too crowded and too empty. The level designs wide stretches that would show off the large amounts of players where hazards and weapons would be placed and regular chokepoints where players would converge. This worked well for the first lap, but not so well when players would be eliminated. 
+                            <br>Instead we opted for a multi-race series, where each game consists of three races. The full 60-player race takes place on a large track for 3 laps, after which the 40 qualifing players move on to a smaller track in round 2. The 20 best in round 2 moves on to the final race. This allowed for utilizing track designs of different sizes to better accomodate the varying player numbers.
+                        </p>
+                        </div>
+                        
+
+                        <div class = "column-dark">
+                        <h3>Live-ops</h3>
+                        <p>I left Sumo Digital before the game was published into early access, but leaving them with enough documented designs that a lot of my work was still utilized in the limited life-span the game was allowed.
+                                   <br> I was responsible for designing the player progression roadmap, with gold and xp reward distribution based on race placement and performance. Players would gain a base of gold and xp for each race with a bonus depending on placement. Later races in the same set wouldn't give better base rewards, but play into the daily and seasonal meta-missions that would award more gold and xp, calculated to drive engagement to the expected baseline. 
+                        </p>
+                        
+                        </div>
+
+                        <div class = "column-dark">
+                        <h3>Hazard and Power-up Design</h3>
+                        <p>
+                            One core pillar of the game was the use of power-ups spread along the track to allow players to gain a temporary advantage. <br>I designed most of the power-ups around the principles that they needed to be easy to identify and keep the flow going. Getting hit by a weapon or hazard couldn't slow you down to a stop like in Mario Kart or it would put a player at too much of a disadvantage in the 60-player race. 
+                            <br>After many iterations we found a satisfying combination of animation and slight slowdown that made it feel like a damage hit made a kart "bounce" down the track which maintained the feeling of momentum while still making a hit feel impactful and satisfying.
+                            <br><br> The hazards were designed to be simple modules that could be dropped into each track partly by level designers and partly by automation. 
+                            <br>
+                        </p>
+                        </div>                        
+                </div>
+            </div>
+        </div>
+        </main>
+
+        <div id="footer"></div>
+    </div>
+
+</body>
+</html>

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php
-        include("head.php")
-    ?>
+<head>
+  <div id="head"></div>
+  <script src="/components.js" defer></script>
+</head>
 <body>
     <div class = "container">
         
-        <?php include("header.php") ?>
-        
-        <?php include("nav.php") ?>
+        <div id="header"></div>
+        <div id="nav"></div>
 
         <main>
 
-        <div class = text-block style = "background-color: #320a47">
+        <div class = text-block>
 
             <h1>Star Stable Online - Star Stable Entertainment</h1>
             <p class = "paragraph">
@@ -25,9 +25,19 @@
             <br>
             Besides my work as a Game Designer, I have also worked as a team leader on several projects and have taken an active role in seeking out and interacting with the player community.
             </p>
+            
+            <div class = "column-dark">
+                <li><a href="star-stable.html#Soulriding">Soul Riding</a></li>
+                <li><a href="star-stable.html#Halloween">Halloween (LTE)</a></li>
+                <li><a href="star-stable.html#Winter">Winter Event System</a></li>
+                <li><a href="star-stable.html#Farah">Crafting System</a></li>
+                <li><a href="star-stable.html#Quest">Quest Design</a></li>
+                <li><a href="star-stable.html#Trailride">Trail Ride System</a></li>
+            </div>
+
         </div>
 <br>
-        <div class = text-block>
+        <div class = text-block id="Soulriding">
             <div>
                 <h1>Soul Riding - New Feature</h1>
                 <p class = "paragraph">
@@ -42,7 +52,7 @@
                 <a href="https://www.starstable.com/en/article/8306">News article on Star Stable's Website</a>
                 </p>
             </div>
-            <div class = text-block style = "background-color: #320a47; padding: 2%">
+            <div class = text-block style = "background-color: #17171894; padding: 2%">
                 <a target="_blank" href="assets/soul-riding-2.jpg"><img class="gallery-img" src="assets/soul-riding-2.jpg" title="Players get a common pool of random gameplay activities each day." alt="Players get a common pool of random gameplay activities each day." style = "max-width: 280px"></a>
                 <a target="_blank" href="assets/soul-riding-4.png"><img class="gallery-img" src="assets/soul-riding-4.png" title="Sample gameplay activity: A mission to close a rift." alt="Sample gameplay activity: A mission to close a rift." style = "max-width: 280px"></a>
                 <a target="_blank" href="assets/soul-riding-3.jpg"><img class="gallery-img" src="assets/soul-riding-3.jpg" title="Players gain major rewards over time and minor rewards per activity." alt="Players gain major rewards over time and minor rewards per activity." style = "max-width: 280px"></a>
@@ -53,7 +63,7 @@
             </div>
         </div>
 <br>
-        <div class = text-block style = "background-color: #320a47">
+        <div class = text-block id="Halloween">
             <h1>Halloween - Limited-time Event</h1>
             <p class = "paragraph">
             Halloween is a limited-time event and very popular with our player base. I was involved in creating Halloween content for several years, as I am very passionate about the spooky horror elements, and how to adapt them to a younger audience. I have worked on the layout of the Halloween area, specific races, quests, and collections available for the event, as well as developing the narrative around the central character, the headless horseman Galloper Thompson.
@@ -70,7 +80,7 @@
                 <br>
                 <a href="https://www.starstable.com/en/article/9358">Part 2</a>
             </p>
-            <div class = text-block style = "padding: 2%">
+            <div class = text-block style = "padding: 2%" style = "background-color: #17171894;>
                 <a target="_blank" href="assets/SSO-Halloween-1.png"><img class="gallery-img" src="assets/SSO-Halloween-1.png" style = "max-width: 280px"></a>
                 <a target="_blank" href="assets/SSO-Halloween-2.png"><img class="gallery-img" src="assets/SSO-Halloween-2.png" style = "max-width: 280px"></a>
                 <a target="_blank" href="assets/SSO-Halloween-3.png"><img class="gallery-img" src="assets/SSO-Halloween-3.png" style = "max-width: 280px"></a>
@@ -81,7 +91,7 @@
             </div>
         </div>
 <br>
-        <div class = text-block>
+        <div class = text-block id="Winter">
             <h1>Winter in Jorvik - System for Events</h1>
             <p class = "paragraph">
             For the December-spanning winter event, I created a modular calendar of events that players could encounter. Different days and times would spawn different events, and players could complete the sequences and/or minigames in those events to earn items to exchange for rewards. 
@@ -97,7 +107,7 @@
                 <br>
                 <a href="https://www.starstable.com/en/article/9678">Part 4</a>
             </p>
-            <div class = text-block style = "padding: 2%; background-color: #320a47">
+            <div class = text-block style = "padding: 2%; style = "background-color: #17171894;>
                 <a target="_blank" href="assets/SSO-Winter-1.png"><img class="gallery-img" src="assets/SSO-Winter-1.png" style = "max-width: 280px"></a>
                 <a target="_blank" href="assets/SSO-Winter-2.png"><img class="gallery-img" src="assets/SSO-Winter-2.png" style = "max-width: 280px"></a>
                 <a target="_blank" href="assets/SSO-Winter-3.png"><img class="gallery-img" src="assets/SSO-Winter-3.png" style = "max-width: 280px"></a>
@@ -108,7 +118,7 @@
             </div>
         </div>
 <br>
-        <div class = text-block style = "background-color: #320a47">
+        <div class = text-block id="Farah">
             <h1>Farah's Workshop - Crafting System</h1>
             <p class = "paragraph">
             In an ongoing effort to create gameplay features that would allow players to have evergreen gameplay, I pitched and designed a gathering and crafting system. The first iteration of this system would become Farah's Workshop.
@@ -125,7 +135,7 @@
             <br><br>
                 <a href="https://www.starstable.com/en/article/8804">News article on Star Stable's Website</a>
             </p>
-            <div class = text-block style = "padding: 2%">
+            <div class = text-block style = "padding: 2%" style = "background-color: #17171894;>
                 <a target="_blank" href="assets/SSO-Crafting-1.png"><img class="gallery-img" src="assets/SSO-Crafting-1.png" style = "max-width: 280px"></a>
                 <a target="_blank" href="assets/SSO-Crafting-2.png"><img class="gallery-img" src="assets/SSO-Crafting-2.png" style = "max-width: 280px"></a>
                 <div style = "text-align: center;">
@@ -135,7 +145,7 @@
             </div>
         </div>
 <br>
-        <div class = text-block>
+        <div class = text-block id="Quest">
             <h1 id="SSO-Quests">Quests</h1>
             <p class = "paragraph">
             During my time at SSE I worked on several quests in the game. In making the quests I have worked on coming up with new ways to use gameplay, creating minigames using both the world and the UI interface, working with cinematics, and expanding and documenting the tools used to create quests so they can be used by other designers.
@@ -145,7 +155,7 @@
             <p class = "paragraph">
             Sample quests I have worked on:
             </p>
-
+            <hr>
             <h3 style = "text-align:left">A Horse For Maya</h3>
             <p class = "paragraph">
             This was the final quest I worked on before leaving the company. It is very dear to me as it allowed me to expand greatly on Maya Dew. Maya is a character with fun personality, a close (and queer) connection to one of the main characters, as well as an interesting backstory that tied together with another of the big subplots of the game. 
@@ -160,6 +170,7 @@
                 <iframe width="320" height="180" src="https://www.youtube.com/embed/Oufu1-2leg0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </p>
             </p>
+            <hr>
             <h3 style = "text-align:left">Get To Know Gary</h3>
             <p class = "paragraph">
                 This was a relatively simple quest, which was just supposed to cover one content update and (re) introduce a character. It was part of the release of a new area, and tied into the overarching narrative of that area.
@@ -171,6 +182,7 @@
                 <iframe width="320" height="180" src="https://www.youtube.com/embed/l6XrbuGp7AM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </p>
             </p>
+            <hr>
             <h3 style = "text-align:left">In Loving Memory</h3>
             <p class = "paragraph">
                 Possibly my greatest achievement accounting for impact, and I was not even the designer on this quest! I was co-designer and writer!
@@ -197,7 +209,7 @@
             </p>              
         </div>
 <br>
-    <div class = text-block style = "background-color: #320a47">
+    <div class = text-block id="Trailride">
         <h1>Trail Rides - Modular Event System</h1>
         <p class = "paragraph">
         I designed Trail Rides as a system for modular events to allow players to tell their own stories.
@@ -211,7 +223,7 @@
                 <a href="https://www.starstable.com/en/article/6869">News article on Star Stable's Website</a>
         </p>
 
-        <div class = text-block style = "padding: 2%">
+        <div class = text-block style = "padding: 2%" style = "background-color: #17171894;>
                 <a target="_blank" href="assets/SSO-TrailRide-1.png"><img class="gallery-img" src="assets/SSO-TrailRide-1.png" style = "max-width: 280px"></a>
                 <a target="_blank" href="assets/SSO-TrailRide-2.png"><img class="gallery-img" src="assets/SSO-TrailRide-2.png" style = "max-width: 280px"></a>
                 <div style = "text-align: center;">
@@ -224,7 +236,7 @@
 
     </main>
 
-        <?php include("footer.php") ?>
+        <div id="footer"></div>
     </div>
 
 </body>
