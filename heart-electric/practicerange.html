@@ -21,11 +21,25 @@
                         <hr>
                         <div class="row" style="width: auto; align-items: center; padding: 2%;">
 
-                                    <p class="paragraph">The practice range was an onboarding feature created to decrease initial churn during playtests. The team was given three weeks to create a level that could be accessed offline and would teach the players the basics of the game.</p>
+                                    <p class="paragraph">The practice range was an onboarding feature created to decrease initial churn during playtests. The team was given three weeks to create a level that could be accessed offline and would teach the players the basics of the game.
 
-                                    <p class="paragraph">More comprehensive description coming soon.</p>
+                                    <br><br>Looking at player comments from Discord and form surveys done from the previous playtest, it was clear that one of the main pain points of introducing the game was the lack of an onboarding. This made it difficult to get proper feedback as players would give up before understanding the complex game loop properly. 
+                                    <br>I confirmed this by looking at metrics compiled from Snowflake, where it was clear that ~30% of players that got into a game churned before reaching the end game screen. This also had a negative effect on the players that did grasp the game as they would be plagued by uncoordinated players and/or leavers on their teams. 
 
-                                    <p style="justify-self: center;"><iframe width="auto" height="auto" src="https://youtu.be/mgVCVYn6sDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                                    <br><br>The practice range was proposed to combat this problem. 
+                                    <br>While we didn't have time to create an advanced onboarding flow in pre-alpha, we wanted to present an offline playground where players could get used to the unique movement, the rules of the game loop, and try out the guns and hero abilities before getting into a proper match.  
+
+                                    <br><br>I took responsibility for planning and designing the feature along with setting the scope and coordinating the team through Jira. I worked with the level designer, UX designer, programmers, and artists to make sure we could deliver the best possible product under a tight timeframe.
+
+                                    <br><br>The main issue we had to tackle was that the entire game had been built to be ran in a snapnet multiplayer online server environment. The programmers had to translate the game state to a single player environment where a lot of exceptions had to be made to accomodate a seemless transition to the player. 
+                                    <br>I worked close with the programmers, checking in daily what they needed and when changes rapidly needed to be made to the design in order to get all parts of the feature working in time. 
+                                    </p>
+
+                                    <p class="paragraph">Excerpt from the production document can be read here: <a class = "icon-link" target = "_blank" href="/assets/PD-Practice Range-160226-162716.pdf"><i class = "fa-solid fa-file-pdf"></i></a></p>
+                                    
+                                    
+                                    
+                                    <p style="justify-self: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/mgVCVYn6sDE?si=yDT4NJ0S_cFu6mGz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
                                     
                             
                         </div>    
